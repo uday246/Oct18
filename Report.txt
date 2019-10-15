@@ -1,0 +1,5 @@
+Student Name		Number of credits		 Student Average
+************		*****************		 ***************
+Bob hurl       				9				85.0
+PeggyM O'Brian 				12				74.75
+Alfred Louis   				12				81.0

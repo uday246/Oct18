@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+Height: <input type="text" id="height">
+Width: <input type="text" id="width" >
+<button onclick="myFunction()">Find </button>
+
+<p id="per">Perimeter : </p>
+<p id="area">Area : </p>
+
+
+
+
+<script>
+function myFunction() {
+    h =document.getElementById("height").value;
+    w =document.getElementById("width").value;
+	
+    h=parseInt(h);
+    w=parseInt(w);
+		area =  h*w;
+		per=2*(h+w);
+    document.getElementById("area").innerHTML ="Area : "+area;
+    document.getElementById("per").innerHTML ="Perimeter : "+per ;
+	
+    
+}
+</script>
+
+</body>
+</html>

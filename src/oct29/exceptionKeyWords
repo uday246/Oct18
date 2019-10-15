@@ -1,0 +1,9 @@
+try: it is block is used to monitor the statements which might cause the exceptions
+
+catch: is must be followed by try block , it is used to catch the exceptions, in paranthesis we need to write which exception is this catch is going to handle
+
+throw; it is used to throw the exceptions manually by the programmer
+
+finally: is block which executes always even if exception is not raised, it used to cleaning purpose
+
+throws: is used to declare the at method defination level to indicate the called of the function should handle the exceptions
